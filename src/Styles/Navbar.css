@@ -1,0 +1,44 @@
+.Navbar_main {
+  width: 95%;
+  margin: 7px auto;
+}
+
+.Navbar_wrapper {
+  display: flex;
+}
+
+.Navbar_left {
+  flex: 1;
+}
+
+.Navbar_right {
+  flex: 1;
+}
+.Navbar_right{
+    display: flex;
+    justify-content: flex-end
+}
+
+.Navbar_left h2{
+  color: #082a3f;
+  font-weight: 700;
+}
+
+.Nav_btn1{
+    margin: 0 5px;
+    background: #082a3f !important;
+    color: #fff !important;
+}
+
+.Nav_btn2{
+    margin: 0 5px;
+    background:  #e67e22  !important;
+    color: #fff !important;
+}
+
+@media screen and (max-width: 780px) {
+    .Navbar_right {
+        flex: 1;
+        display: none;
+      }
+}

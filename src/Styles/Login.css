@@ -1,0 +1,91 @@
+.Login_main {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.Login_wrapper {
+  display: flex;
+}
+
+.Login_left {
+  flex: 1;
+}
+
+.Login_right {
+  flex: 1;
+  background: #082a3f;
+}
+
+.Form_main {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Form_heading h2 {
+  font-weight: bold;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.InputField {
+  margin: 10px auto !important;
+}
+.Btn{
+  background:  #154360 ;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+.Btn:hover{
+    background:  #082a3f ;
+    cursor: pointer;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+
+.btn{
+    color: #fff;
+    padding: 6px 0;
+}
+.checkbox{
+    width: 60%;
+    margin: 7px auto;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.Team_img{
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .Login_wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+      .Login_right {
+        display: none;
+      }
+}
+
+@media screen and (max-width: 399px) {
+    .checkbox{
+        width: 60%;
+        margin: 7px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
