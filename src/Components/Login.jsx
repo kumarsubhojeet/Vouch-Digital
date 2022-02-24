@@ -73,7 +73,7 @@ export default function Login() {
         </div>
 
         <div className="Login_right">
-          <img src={Team} alt="img-error" />
+          <img className="Img" src={Team} alt="img-error" />
         </div>
       </div>
     </div>

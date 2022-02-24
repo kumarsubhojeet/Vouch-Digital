@@ -1,7 +1,7 @@
 .Login_main {
   width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  height: 50vh;
 }
 
 .Login_wrapper {
@@ -27,6 +27,10 @@
 }
 .Form_heading h2 {
   font-weight: bold;
+}
+.Img{
+  height: 100%;
+  width: 100%;
 }
 
 .form {
@@ -75,6 +79,14 @@
       }
       .Login_right {
         display: none;
+      }
+      .Form_main {
+        text-align: center;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
       }
 }
 
